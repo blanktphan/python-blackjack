@@ -1,18 +1,8 @@
-# 🃏 Blackjack by blanktphan
+# 🃏 Blackjack by Python
 
-A beautiful console-based Blackjack game written in Python with stunning ASCII art and comprehensive gameplay features.
+![Blackjack logo](./image/blackjack_logo.png)
 
-## 🎮 Features
-
-- **Beautiful ASCII Art Title** - Eye-catching blue title display
-- **Complete Blackjack Rules** - Full implementation of standard Blackjack rules
-- **Smart Ace Handling** - Automatic Ace value adjustment (11 ↔ 1)
-- **Natural Blackjack Detection** - Recognizes 21 with first 2 cards
-- **Dealer AI** - Follows standard casino rules (hits until 17+)
-- **Statistics Tracking** - Win/loss/tie tracking with win rate calculation
-- **Multiple Rounds** - Play consecutive rounds with fresh decks
-- **Error Handling** - Robust error handling and graceful exits
-- **Interactive Gameplay** - Clear prompts and colorful emoji feedback
+A stunning console-based Blackjack game built in Python featuring beautiful ASCII art, intuitive gameplay mechanics, and comprehensive statistics tracking. Experience the classic casino game with elegant visual design and smooth user interaction.
 
 ## 📁 Project Structure
 
@@ -68,15 +58,15 @@ blackjack-by-python/
 
 ## 🏆 Winning Scenarios
 
-| Scenario | Result |
-|----------|---------|
-| Your score > 21 | **BUST** - You lose |
-| Dealer score > 21 | **Dealer BUST** - You win |
-| Your score = 21 (2 cards) | **BLACKJACK** - You win |
+| Scenario                    | Result                          |
+| --------------------------- | ------------------------------- |
+| Your score > 21             | **BUST** - You lose             |
+| Dealer score > 21           | **Dealer BUST** - You win       |
+| Your score = 21 (2 cards)   | **BLACKJACK** - You win         |
 | Dealer score = 21 (2 cards) | **Dealer BLACKJACK** - You lose |
-| Your score > Dealer score | **WIN** - Higher score |
-| Dealer score > Your score | **LOSE** - Lower score |
-| Same score | **TIE** - Push/Draw |
+| Your score > Dealer score   | **WIN** - Higher score          |
+| Dealer score > Your score   | **LOSE** - Lower score          |
+| Same score                  | **TIE** - Push/Draw             |
 
 ## 📊 Statistics
 
@@ -202,21 +192,10 @@ Feel free to fork this project and submit pull requests for improvements:
 5. Test your changes
 6. Submit a pull request
 
-## 📄 License
+## 📄 Documentation
 
-This project is open source and available under the MIT License.
-
-## 👨‍💻 Author
-
-**blanktphan**
-- GitHub: [blanktphan](https://github.com/blanktphan)
-
-## 🎉 Acknowledgments
-
-- Thanks to the Python community for excellent documentation
-- Inspired by classic casino Blackjack rules
-- ASCII art generated with care for visual appeal
+This comprehensive documentation was generated with the assistance of **GitHub Copilot**, showcasing AI-powered development workflow and intelligent code documentation.
 
 ---
 
-**Enjoy playing Blackjack! 🃏 Good luck at the tables! 🍀**
+**🔑 This project is open source and available under the MIT License.**
