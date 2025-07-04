@@ -1,8 +1,29 @@
-# 🃏 Blackjack by Python
+# 🃏 Python Blackjack Game
 
 ![Blackjack logo](./image/blackjack_logo.png)
 
 A stunning console-based Blackjack game built in Python featuring beautiful ASCII art, intuitive gameplay mechanics, and comprehensive statistics tracking. Experience the classic casino game with elegant visual design and smooth user interaction.
+
+<section align="center">
+   <span>
+      <img alt="Python Badge" src="https://img.shields.io/badge/python-transparent?style=for-the-badge&logo=python&logoColor=fff&color=4584b6">
+   </span>
+   <span>
+      <img alt="Git Badge" src="https://img.shields.io/badge/git-transparent?style=for-the-badge&logo=git&logoColor=fff&color=F1502F">
+    </span>
+   <span>
+      <img alt="Bash Badge" src="https://img.shields.io/badge/bash-transparent?style=for-the-badge&logo=gnu%20bash&logoColor=fff&color=3e3b3b">
+    </span>
+    <span>
+        <img alt="GitHub Badge" src="https://img.shields.io/badge/github-transparent?style=for-the-badge&logo=github&logoColor=fff&color=%23181717">
+    </span>
+    <span>
+      <img alt="GitHub copilot Badge" src="https://img.shields.io/badge/github%20copilot-transparent?style=for-the-badge&logo=githubcopilot&logoColor=fff&color=%23181717">
+    </span>
+    <span>
+      <img alt="VScode Badge" src="https://img.shields.io/badge/vscode-transparent?style=for-the-badge&logo=vscode&labelColor=fff&color=0078d7">
+    </span>
+</section>
 
 ## 📁 Project Structure
 
