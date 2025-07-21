@@ -1,6 +1,6 @@
 # 🃏 Python Blackjack Game
 
-![Blackjack logo](./image/blackjack_logo.png)
+![Blackjack logo](./image/image.png)
 
 A stunning console-based Blackjack game built in Python featuring beautiful ASCII art, intuitive gameplay mechanics, and comprehensive statistics tracking. Experience the classic casino game with elegant visual design and smooth user interaction.
 
