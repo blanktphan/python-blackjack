@@ -188,21 +188,6 @@ Dealer stands with 17
 - No card splitting or doubling down
 - No insurance bets
 
-## 🤝 Contributing
-
-Feel free to fork this project and submit pull requests for improvements:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add appropriate comments
-5. Test your changes
-6. Submit a pull request
-
-## 📄 Documentation
-
-This comprehensive documentation was generated with the assistance of **GitHub Copilot**, showcasing AI-powered development workflow and intelligent code documentation.
-
 ---
 
-**🔑 This project is open source and available under the MIT License.**
+This comprehensive documentation was generated with the assistance of **GitHub Copilot**, showcasing AI-powered development workflow and intelligent code documentation.
