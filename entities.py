@@ -7,7 +7,7 @@ class Card:
         self.value = self.get_value()  # Blackjack value of the card
 
     def get_value(self):
-        """Return the value of the card for Blackjack scoring"""
+        """Return the value of the card for Blankjack scoring"""
         if self.rank in ['Jack', 'Queen', 'King']:
             return 10  # Face cards are worth 10
         elif self.rank == 'Ace':

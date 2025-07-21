@@ -5,7 +5,7 @@ from entities import Card, Deck, player
 # Main Blackjack game class
 class BlackjackGame:
     def __init__(self):
-        """Initialize a new Blackjack game"""
+        """Initialize a new Blankjack game"""
         self.deck = Deck()                # Create new deck
         self.deck.shuffle()               # Shuffle the cards
         self.player = player("Player")    # Create player
@@ -138,7 +138,7 @@ class BlackjackGame:
             return "tie"
 
     def check_blackjack(self):
-        """Check for natural blackjack (21 with first 2 cards)"""
+        """Check for natural blankjack (21 with first 2 cards)"""
         player_blackjack = (self.player.score == 21 and len(self.player.hand) == 2)
         dealer_blackjack = (self.dealer.score == 21 and len(self.dealer.hand) == 2)
         
@@ -150,19 +150,19 @@ class BlackjackGame:
             
             # Determine blackjack winner
             if player_blackjack and dealer_blackjack:
-                print("🟡 Both have BLACKJACK! It's a tie.")
+                print("🟡 Both have BLANKJACK! It's a tie.")
                 return "tie"
             elif player_blackjack:
                 print("🟢 BLACKJACK! You WIN!")
                 return "player"
             else:
-                print("🔴 Dealer has BLACKJACK! You lose.")
+                print("🔴 Dealer has BLANKJACK! You lose.")
                 return "dealer"
         
         return None  # No blackjack
 
     def play_round(self):
-        """Play a single round of Blackjack from start to finish"""
+        """Play a single round of Blankjack from start to finish"""
         print("\n🎮 Starting new round...")
         print("="*50)
         
@@ -200,7 +200,7 @@ def play_game():
     ties = 0           # Track tie games
     
     # Display game rules
-    print("🎲 Welcome to Blackjack!")
+    print("🎲 Welcome to Blankjack!")
     print("Rules: Get as close to 21 as possible without going over.")
     print("Face cards = 10, Aces = 1 or 11, Number cards = face value")
     
@@ -246,7 +246,7 @@ def play_game():
         win_rate = (player_wins / total_games) * 100
         print(f"Your win rate: {win_rate:.1f}%")
     
-    print("\nThanks for playing Blackjack! 🃏")
+    print("\nThanks for playing Blankjack! 🃏")
 
 # Run game if this file is executed directly
 if __name__ == "__main__":
