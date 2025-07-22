@@ -1,4 +1,4 @@
-# 🃏 Python Blackjack Game
+# 🎮 BlackJack game on Command Line Interface
 
 ![Blackjack logo](./image/image.png)
 
@@ -109,35 +109,39 @@ Your win rate: 50.0%
 ## 🎨 Sample Gameplay
 
 ```
+=======================================
 🎮 Starting new round...
 =======================================
 
-🃏 Player's hand:
-  King of Hearts
-  7 of Diamonds
-  Score: 17
+👤 Player's hand:
+   King of Hearts
+   7 of Diamonds
+   Score: 17
 
-🃏 Dealer's hand:
-  Ace of Spades
-  [Hidden Card]
+🤖 Dealer's hand:
+   Ace of Spades
+   [Hidden Card]
+
 ---------------------------------------
 
 Do you want to (h)it or (s)tand? s
 
 You chose to stand with 17
 
-🤖 Dealer's turn:
-🃏 Dealer's hand:
-  Ace of Spades
-  6 of Clubs
-  Score: 17
+🤖 Dealer's turn...
+
+🤖 Dealer's hand:
+   Ace of Spades
+   6 of Clubs
+   Score: 17
 
 Dealer stands with 17
 
 =======================================
-🎯 FINAL RESULTS
+🎉 FINAL RESULTS
 =======================================
-🟡 It's a TIE! Same score.
+
+🤝 It's a TIE! Same score.
 
 🏅 Score: You: 0 | Dealer: 0 | Ties: 1
 ```
